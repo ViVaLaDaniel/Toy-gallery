@@ -6,7 +6,7 @@ function Footer() {
     <footer className="fixed bottom-0 left-0 w-full">
       <div className="mx-2 my-2 backdrop-blur-0 bg-gradient-to-r from-pink-100 via-yellow-100 to-orange-100 flex justify-center rounded-2xl">
         <div className="flex justify-center  my-2">
-          <a href="https://www.facebook.com/groups/686643550128589" className="py-4 px-4 bg-pink-200 hover:bg-pink-300 text-white rounded-xl transition duration-300">
+          <a href="https://www.facebook.com/search/top?q=keit.%20handmade%20" className="py-4 px-4 bg-pink-200 hover:bg-pink-300 text-white rounded-xl transition duration-300">
             <FaFacebook />
           </a>
           <a href="https://www.instagram.com/" className="py-4 px-4 mx-2 bg-yellow-200 hover:bg-yellow-300 text-white rounded-xl transition duration-300">

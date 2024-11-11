@@ -11,10 +11,10 @@ function Header() {
           <h1 className="text-xl font-bold  py-2 text-left px-4 my-2  decoration-sky-400 underline bg-clip-text text-transparent  bg-gradient-to-r from-sky-300 to-orange-500">KeytHandMade</h1>
         </a>
         <div className="flex justify-end my-2">
-          <a href="" className="py-4 px-4 bg-pink-200 hover:bg-pink-300 text-white rounded-xl transition duration-300">
+          <a href="tel:+48577125045" className="py-4 px-4 bg-pink-200 hover:bg-pink-300 text-white rounded-xl transition duration-300">
             <FaPhoneFlip />
           </a>
-          <a href="" className="py-4 px-4 mx-2 bg-yellow-200 hover:bg-yellow-300 text-white rounded-xl transition duration-300">
+          <a href="https://maps.app.goo.gl/CQFJThtRkPcacben6" className="py-4 px-4 mx-2 bg-yellow-200 hover:bg-yellow-300 text-white rounded-xl transition duration-300">
             <FaMapMarkedAlt />
           </a>
         </div>
