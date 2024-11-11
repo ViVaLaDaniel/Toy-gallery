@@ -1,0 +1,35 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.toy-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+}
+
+.toy-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.toy-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  justify-content: center;
+}
+
+.toy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
